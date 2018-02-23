@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MAvha.DAL", "VB\MAvha.DAL\MAvha.DAL.vbproj", "{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MAvha.Business", "VB\MAvha.Business\MAvha.Business.vbproj", "{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MAvha.WinForms", "VB\MAvha.WinForms\MAvha.WinForms.vbproj", "{A178B5EE-BB0F-478F-9BCD-14E020028629}"
+	ProjectSection(ProjectDependencies) = postProject
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663} = {696B2FF4-2C7D-45B1-8531-9DA0F47D0663}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MAvha.Services(3)", "VB\MAvha.Services\", "{696B2FF4-2C7D-45B1-8531-9DA0F47D0663}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{dba1eea5-35ad-4e93-aeef-238f81300def}|MAvha.Business.dll;{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}|MAvha.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52729"
+		Debug.AspNetCompiler.PhysicalPath = "VB\MAvha.Services\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52729\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52729"
+		Release.AspNetCompiler.PhysicalPath = "VB\MAvha.Services\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52729\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52729"
+		SlnRelativePath = "VB\MAvha.Services\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MAvha.WebSite(2)", "VB\MAvha.WebSite\", "{A750C14B-2EC0-4245-B98F-6E87C61E745F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}|MAvha.DAL.dll;{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}|MAvha.Business.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60694"
+		Debug.AspNetCompiler.PhysicalPath = "VB\MAvha.WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60694\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60694"
+		Release.AspNetCompiler.PhysicalPath = "VB\MAvha.WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60694\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60694"
+		SlnRelativePath = "VB\MAvha.WebSite\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663} = {696B2FF4-2C7D-45B1-8531-9DA0F47D0663}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CED970-A4CF-4B3C-AE0B-2F21FFF4D77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1EEA5-35AD-4E93-AEEF-238F81300DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A178B5EE-BB0F-478F-9BCD-14E020028629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A178B5EE-BB0F-478F-9BCD-14E020028629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A178B5EE-BB0F-478F-9BCD-14E020028629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A178B5EE-BB0F-478F-9BCD-14E020028629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{696B2FF4-2C7D-45B1-8531-9DA0F47D0663}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A750C14B-2EC0-4245-B98F-6E87C61E745F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A750C14B-2EC0-4245-B98F-6E87C61E745F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A750C14B-2EC0-4245-B98F-6E87C61E745F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A750C14B-2EC0-4245-B98F-6E87C61E745F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A724384-8868-497D-8447-B1476E051EC4}
+	EndGlobalSection
+EndGlobal
